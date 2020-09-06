@@ -1,0 +1,83 @@
+body{
+    background-color: black;
+    font-family: 'Source Code Pro', monospace;
+    color: white;
+}
+
+.header{
+    padding: 2% 30%;
+}
+.header h1{
+    text-align: center;
+    font-size: 5rem;
+}
+
+.dicee{
+    padding: 0% 30%;
+}
+.containerdice{
+    margin: auto;
+    text-align: center;
+}
+
+.playertext{
+    width: 45%;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.playerdicee{
+    width: 45%;
+    margin: 1%;
+    display: inline-block;
+}
+.playerdicee img {
+    width: 100%;
+    height: auto;
+  }
+
+
+.btn-section{
+    padding: 4% 30% 0;
+    text-align: center;
+}
+
+.btn{
+    background-color: white;
+    color:black;
+    width: 140px;
+    height: 42px;
+    border-radius: 15px;
+    font-size: 19px;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    outline: none;
+    margin: 0 10px;
+    border: none;
+}
+.btn:active{transform: scale(0.9);}
+
+.footer{
+    padding-top: 3%;
+    text-align: center;
+}
+
+.textEffect{
+    color: yellow;
+}
+
+@media(max-width: 830px){
+    .header{
+        padding: 2% 15%;
+    }
+    
+    .dicee{
+        padding: 2% 15%;
+    }
+
+    .footer{
+        margin-top: 10%;
+        text-align: center;
+    }
+
+}
