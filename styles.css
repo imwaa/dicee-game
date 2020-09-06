@@ -68,15 +68,19 @@ body{
 }
 
 @media(max-width: 830px){
-        .playertext{
+    .playertext{
         font-size: 15px;
     }
+    .header h1{
+        font-size: 3rem;
+    }
+    
     .containerdice{
 
         width: 100%;
     }
     .header{
-        padding: 0% 10%;
+        padding: 2% 10%;
     }
     
     .dicee{
