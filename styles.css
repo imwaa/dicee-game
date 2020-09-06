@@ -68,6 +68,9 @@ body{
 }
 
 @media(max-width: 830px){
+        .playertext{
+        font-size: 15px;
+    }
     .containerdice{
 
         width: 100%;
