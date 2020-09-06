@@ -18,6 +18,7 @@ body{
 .containerdice{
     margin: auto;
     text-align: center;
+    width: 70%;
 }
 
 .playertext{
@@ -67,8 +68,12 @@ body{
 }
 
 @media(max-width: 830px){
+    .containerdice{
+
+        width: 100%;
+    }
     .header{
-        padding: 2% 15%;
+        padding: 0% 10%;
     }
     
     .dicee{
@@ -76,7 +81,7 @@ body{
     }
 
     .footer{
-        margin-top: 10%;
+        margin-top: 3%;
         text-align: center;
     }
 
